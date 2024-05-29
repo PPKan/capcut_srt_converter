@@ -3,7 +3,7 @@ import sys
 
 # 檢查命令行參數
 if len(sys.argv) != 3:
-    print("Usage: python script.py <input_file> <output_file>")
+    print("Usage: python main.py <input_file> <output_file>")
     sys.exit(1)
 
 input_file = sys.argv[1]
